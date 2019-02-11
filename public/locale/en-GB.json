@@ -1,0 +1,59 @@
+{
+  "header": {
+    "search": "Search ...",
+    "courses": "Courses",
+    "programs": "Programs",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "asTutor": "As Tutor",
+    "asStudent": "As Student",
+    "register": "Register",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPass": "Confirm Password",
+    "forgotPass": "Fogot Password?",
+    "registerHere": "Sign Up Here",
+    "message": "Your message",
+    "send": "Send"
+  },
+
+  "container": {
+    "popularSubs": "Popular Subjects",
+    "computerScience": "Computer Science",
+    "language": "Language",
+    "engineering": "Engineering",
+    "managment": "Managment",
+    "browseBtn": "Browse Courses and Programs",
+    "feedback": "What They Say"
+  },
+
+  "content": {
+    "title": "ONLINE LEARNING SYSTEM",
+    "slogan": "Online learning is not the next big thing, it is the now big thing. Learn anytime, anywhere.",
+    "findbtn": "What do you want to learn?",
+    "find": "Find Courses"
+  },
+  "footer": {
+    "lang" : "English",
+    "about": "About Us",
+    "business": "AOA for Business",
+    "affiliates": "Affiliates",
+    "open": "Open AOA",
+    "term": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "accesibility": "Accessibility Policy",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "help": "Help Cneter",
+    "media": "Media Kit"
+  },
+  "student": {
+    "courses": "Courses",
+    "tutors": "Tutors",
+    "myCourses": "My Courses",
+    "logOut": "Log Out",
+    "settings": "Settings"
+  } 
+}

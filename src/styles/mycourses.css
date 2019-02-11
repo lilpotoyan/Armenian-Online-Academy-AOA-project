@@ -1,0 +1,63 @@
+.std-mycourses {
+    margin: 45px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.mycourse-card {
+    outline: none;
+    width: 356px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    margin: 5px 15px 15px 10px;
+    height: 325px;
+    box-shadow: 0 0 10px 2px rgba(13, 15, 19, 0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+    cursor: pointer;
+    transition: all .3s
+}
+
+.mycourse-card:hover p {
+    transition: all 0.3s linear;
+    color: #457938;
+  } 
+  
+.mycourse-card:hover {
+    -moz-box-shadow: 11px 9px 61px -5px rgba(99, 99, 99, 0.71);
+    box-shadow: 11px 9px 61px -5px rgba(116, 116, 116, 0.71);
+  }
+
+.mycourse-card-img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+.mycourse-card-sub {
+    padding: 15px 10px 0 15px;
+    color: #29303B;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 95px;
+    background-color: #fcfdfc;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+.mycourses-card-price {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+}
+
+
+

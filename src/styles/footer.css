@@ -1,0 +1,160 @@
+.footer {
+  width: 100%;
+  background-color: rgb(245, 246, 245);
+  display: inline-block;
+}
+
+.footerGrey {
+  margin: 60px auto 40px;
+  width: 1130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.dropbtn {
+  margin-top: 60px;
+  width: 141px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: -0.15px 1px 10px #b4b4b4;
+  border: none;
+}
+
+.logoaoa {
+  width: 75px;
+  height: 47px;
+}
+
+.lang-dropdown p {
+  font-size: 16px;
+  margin: 10px;
+  color: rgb(87, 85, 85);
+}
+
+.lang-dropdown:focus {
+  outline: none;
+}
+
+.lang-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.lang-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.lang-dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.lang-dropdown:hover .lang-dropdown-content {
+  display: block;
+}
+
+.lang-dropdown:hover .dropbtn {
+  background-color: rgb(159, 185, 153);
+}
+
+.earth {
+  height: 19px;
+  width: 19px;
+  margin-left: 2px;
+}
+
+.list {
+  display: flex;
+}
+.arrowdown {
+  height: 10px;
+  width: 10px;
+}
+
+.footer-ul .footer-li {
+  list-style-type: none;
+  margin: 0px 50px 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer-ul .footer-li a {
+  text-decoration: none;
+  outline: none;
+  color: rgb(159, 185, 153);
+  font-size: 19px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons img {
+  margin: 0px 5px;
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 1148px) {
+  .footerGrey {
+    width: 100%;
+    flex-direction: column;
+}
+  
+  .lang-dropdown{
+    display: flex;
+    justify-content: center;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .footer-ul {
+    margin: 30px auto;
+    flex-direction: column;
+  }
+
+  .footer-ul:nth-child(3) {
+    display: none;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+
+  .footer-ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.footerGreen {
+  width: 100%;
+  height: 55px;
+  background-color: rgb(69, 121, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(173, 191, 169);
+}

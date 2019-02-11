@@ -1,0 +1,68 @@
+.sign {
+  background: url(../img/Sign-Up.png);
+  position: fixed;
+  top: 10%;
+  left: calc(50% - 277.5px);
+  z-index: 500;
+  width: 555px;
+  height: 530px;
+  background-color: #fff;
+  font-size: 18px;
+  color: grey;
+  border: 1px solid grey;
+  transition: all 0.3s ease-out;
+}
+
+.sign h1 {
+  color: #4b4b48;
+}
+
+.sign form {
+  width: 370px;
+  margin: 90px auto;
+}
+.inputs {
+  margin-top: 60px;
+}
+
+.inputs input {
+  margin: 10px;
+  outline: none;
+  padding-left: 15px;
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #c6c7c6;
+  box-shadow: 0 0px 1px rgba(0, 0, 1, 0.25), 0 5px 20px rgba(0, 0, 0, 0.22);
+  font-size: 18px;
+}
+.submit {
+  background-color: #457938;
+  color: white;
+  cursor: pointer;
+}
+
+.forgot-pass {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot-pass a {
+  font-size: 20px;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+
+.modal-container {
+  position: relative;
+}
+
+.modal-container:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,144 @@
+.add-course-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-course-title {
+  width: 100%;
+}
+
+.add-course-title span,
+.add-course-description span {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #555151;
+}
+
+.add-course-title textarea,
+.add-course-description textarea {
+  text-decoration: none;
+  outline: none;
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 2px solid #aab999;
+  font-size: 16px;  
+  resize: none;
+}
+
+.add-course-group select {
+  border: 1px solid;
+  font-size: 16px;
+  color: green;
+  outline: none;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.add-course-group option {
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transform: all 0.3s;
+}
+
+.add-course-group option:hover {
+  background-color: green;
+
+  transform: all 0.3s;
+}
+
+.add-course-etc {
+  margin: 40px 0 65px;
+  display: flex;
+}
+
+.add-course-price input {
+  width: 60px;
+}
+
+.add-course-group {
+  margin: 30px auto;
+}
+
+.add-course-group span,
+.add-course-language span,
+.add-course-price span,
+.add-course-length span,
+.add-course-effort span,
+.add-course-level {
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 10px;
+  color: #555151;
+}
+
+.add-course-group select,
+.add-course-language select,
+.add-course-price select,
+.add-course-level select{
+  font-size: 16px;
+  font-weight: 500;
+
+  font-size: 16px;
+  border: none;
+  color: green;
+  border-bottom: 2px solid;
+  outline: none;
+  text-decoration: none;
+}
+
+.add-course-schedule {
+  border-top: 1px solid grey;
+  padding-top: 30px;
+  font-size: 30px;
+  color: #555151;
+  font-weight: 600;
+}
+
+.add-course-price span, .add-course-level span {
+  margin-left: 30px;
+}
+.add-course-price input {
+  margin-left: 30px;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid green;
+}
+
+.add-course-language select, .add-course-level select {
+  margin-left: 30px;
+}
+
+.add-course-length input,
+.add-course-effort input {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+  font-size: 16px;
+  border-bottom: 2px solid #aab999;
+  padding-top: 20px;
+}
+
+.add-course-length,
+.add-course-effort {
+  margin-top: 30px;
+}
+
+.add-button {
+  background-color: #eef1ee;
+  margin: 40px auto;
+  display: flex;
+  width: 150px;
+  font-size: 22px;
+  border: none;
+  height: 60px;
+  justify-content: center;
+}

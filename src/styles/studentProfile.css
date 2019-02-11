@@ -1,0 +1,92 @@
+.std-header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef1ee;
+}
+.page-nav {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav span {
+  vertical-align: super;
+  padding-left: 4px;
+}
+
+.page-nav a {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(102, 101, 101);
+  font-weight: 600;
+  transition: all 0.3s;
+  font-size: 18px;
+}
+
+.page-nav a:hover {
+  color: green;
+}
+
+.page-nav img {
+  width: 40px;
+  vertical-align: sub;
+}
+
+.dropdown button {
+  background: transparent;
+  border: none;
+  color: rgb(102, 101, 101);
+  font-weight: 600;
+  padding: 10px;
+  transition: all 0.3s;
+  font-size: 18px;
+}
+
+.dropdown-content {
+  top: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown:focus {
+  outline: none;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 10px;
+}
+
+.student-logo img {
+  margin: 10px auto;
+}
+
+.page-nav > .active {
+  background-color: #bebebe;
+  width: auto;
+  border-radius: 7px;
+}
+.navlink {
+  padding: 10px;
+}

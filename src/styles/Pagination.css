@@ -1,0 +1,53 @@
+.pagination {
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 40px;
+}
+.pagination ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  cursor: pointer;
+}
+.pagination li {
+  list-style-type: none;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 22px;
+  transition: all 0.3s;
+}
+.pagination li:hover {
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  width: 47px;
+  height: 47px;
+}
+.page-active {
+  background-color: green;
+  color: white;
+}
+.pagination img {
+  width: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.pagination img:hover {
+  width: 70px;
+}
+@media screen and (max-width: 900px) {
+  .pagination li {
+    font-size: 14px;
+    width: 17px;
+    height: 17px;
+  }
+  .pagination img {
+    width: 30px;
+  }
+}

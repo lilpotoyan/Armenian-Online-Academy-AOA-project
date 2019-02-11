@@ -1,0 +1,57 @@
+.std-tutors-card{
+  margin: 45px auto;
+  max-width: 1200px;
+  display: block;
+  justify-content: center;
+}
+
+.tutors-card{
+  outline: none;
+  width: 950px;
+  display: flex;
+  margin: 20px auto;
+  height: 190px;
+  background: rgb(242, 243, 242);
+  box-shadow: 0 0 10px 2px rgba(13, 15, 19, 0.1), 0 3px 1px 0 rgba(20,23,28,0.1);
+  cursor: pointer;
+  justify-content: space-between;
+  color: black;
+  transition: all .3s
+}
+
+.tutors-card:hover {
+  -moz-box-shadow: 11px 9px 61px -5px rgba(99, 99, 99, 0.71);
+  box-shadow: 11px 9px 61px -5px rgba(116, 116, 116, 0.71);
+  transition: all 0.3s linear;
+  color: #255719;
+}
+
+.tutors-card img {
+  margin: 20px ;
+  width: 140px;
+  height: 140px;
+  transition: all 0.3s
+}
+
+.aboutTutor{
+  width: 500px;
+  overflow: auto;
+}
+
+.aboutTutor p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  transition: all 0.3s
+}
+
+.tutor-card-main{
+  font-size: 16px;
+  font-weight: 500;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: start;
+  transition: all 0.3s
+}
+

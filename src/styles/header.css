@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.navBar {
+  padding-top: 15px;
+  padding-bottom: 2px;
+  width: 1170px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.navBar a {
+  font-weight: 500;
+  margin: 20px;
+  
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #457938;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar a:hover {
+  color: #434646e1;
+}
+
+.regBtn {
+  border-radius: 25px !important;
+  color: white !important;
+  padding: 5px 45px !important;
+  background-color: #457938;
+}
+
+.logo {
+  width: 80px;
+  height: 50px;
+}
+
+.search {
+  margin-top: 20px;
+  width: 350px;
+  height: 30px;
+  margin-left: 45px;
+  outline: none;
+  border-radius: 16px;
+  border: 1.5px solid#457938;
+  padding: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  display: contents;
+}
+
+.nav-bar > .active {
+  color: #303030e1;
+  background-color: #bebebe79;
+}
+
+@media screen and (max-width: 1148px) {
+  .search {
+    width: 130px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: -40px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav-bar a {
+    display: none;
+  } 
+
+  .img-logo {
+    margin-left: 100px;
+  }
+
+  .burger {
+    margin: 20px 0 20px 50px;
+  }
+
+  .hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(50, 92, 59);
+    margin: 8px 0;
+  }
+
+
+  .menu-content{
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-dropdown-content {
+    font-size: 30px;
+    font-weight: 700;
+    color: #457938;
+    text-align: center;
+  }
+
+  .menu-courses {
+    font-family: cursive;
+  }
+
+  .imgRow {
+    display: block !important;
+  }
+
+  .subjects {
+    width: 100% !important;
+    height: 300px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shadow {
+    height: 180px !important;
+    width: 325px !important;
+    margin: 0;
+  }
+}
+/* Header End */

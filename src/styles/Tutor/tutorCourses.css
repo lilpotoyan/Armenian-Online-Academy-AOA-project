@@ -1,0 +1,15 @@
+.empty-courses {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    margin: 160px auto;
+    color: #575252ea;
+}
+
+.tut-mycourses {
+    margin: 45px auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
